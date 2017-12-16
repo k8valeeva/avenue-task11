@@ -1,0 +1,29 @@
+.welcome-section{
+  height: calc( 100vh - 41px);
+  background: url("../../img/bg-welcome.jpg") 0 center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 45px 15px;
+}
+
+@media (max-width: 991px){
+  .welcome-section{
+    height: auto;
+    min-height: 700px;
+  }
+}
+
+.welcome-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-section{
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.look-book-section{
+  padding: 60px 0 100px;
+}
+

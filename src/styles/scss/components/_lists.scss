@@ -1,0 +1,136 @@
+.list-item{
+  display: flex;
+
+  p{
+    margin: 0 5px 0 0;
+  }
+}
+
+.account-settings{
+  display: flex;
+  margin-bottom: 0;
+
+  li{
+    margin-left: 35px;
+    line-height: 45px;
+
+    &:first-child{
+      margin-left: 0;
+    }
+
+    &:last-child{
+      background: $brand-color;
+      padding: 0 25px;
+      margin-left: 80px;
+
+      a{
+        color: $white-text;
+      }
+    }
+  }
+}
+
+.list-lookbook {
+  justify-content: space-between;
+  margin: 0 auto;
+
+  li{
+    padding: 0;
+    max-width: 32%;
+    max-height: 535px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+}
+
+.foto-look{
+  max-width: 665px;
+  max-height: 535px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+
+  img{
+    display: block;
+  }
+}
+
+.info-lookbook{
+  width: 75%;
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  padding-right: 30px;
+
+  .look-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+@media (max-width: 1199px) {
+  .list-lookbook li{
+    margin: 0 auto 20px;
+    max-width: 665px;
+  }
+
+  .info-lookbook{
+    width: 90%;
+    bottom: 5%;
+    padding-bottom: 20px;
+  }
+}
+
+.information-links{
+  margin-bottom: 15px;
+
+  a:hover{
+    color: $dark-text;
+  }
+}
+
+.social-list{
+  display: flex;
+
+  li{
+    margin-right: 50px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+
+  a{
+    display: block;
+  }
+}
+
+.product-btn{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  li{
+    margin-right: 15px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    a{
+      color: $white-text;
+      background-color: #727272;
+      border-radius: 50%;
+      padding: 0 10px;
+      display: block;
+      line-height: 35px;
+      font-size: 17px;
+
+      &:hover{
+        background: $brand-color;
+      }
+    }
+  }
+}

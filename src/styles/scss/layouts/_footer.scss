@@ -1,0 +1,19 @@
+.footer{
+
+  .top-footer{
+    justify-content: space-between;
+    padding: 60px 0;
+    background: #f8f8f8;
+  }
+}
+
+.footer-bottom{
+  background: $bg-dark;
+  font: $sm-font-size $secondary-font;
+  color: $link-color;
+  line-height: 45px;
+
+  p{
+    margin-bottom: 0;
+  }
+}

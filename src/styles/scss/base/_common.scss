@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+
+  &:focus{
+    outline: none!important;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1170px;
+  }
+}
+
+body{
+  font: $base-font-size $base-font;
+  line-height: $base-line-height;
+}
+
+img{
+  display: block;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: $white-text;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row{
+  margin: 0;
+}
+
+.container-fluid{
+  padding: 0;
+}

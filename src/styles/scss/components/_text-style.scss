@@ -1,0 +1,39 @@
+.big-caption{
+  font: 48px/55px $base-font;
+  color: #575153;
+  text-transform: uppercase;
+
+  &-bold{
+    font: 48px/55px $base-font-bold;
+    color: #575153;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 1199px){
+  .big-caption{
+    font: 3.000vmin/30px $base-font;
+  }
+
+  .big-caption-bold{
+    font: 3.000vmin/30px $base-font-bold;
+  }
+}
+
+.description-text{
+  font: 15px/20px $base-font;
+  margin-bottom: 10px
+}
+
+.links-caption{
+  font: bold $sm-font-size $secondary-font;
+  text-transform: uppercase;
+}
+
+.price{
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  color: #9a9a9a;
+  font: 21px $base-font;
+}

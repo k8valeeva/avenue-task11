@@ -1,0 +1,7 @@
+.list-team a {
+  color: $link-color;
+
+  &:hover{
+    color: $white-text;
+  }
+}

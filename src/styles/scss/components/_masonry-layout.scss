@@ -1,0 +1,42 @@
+.tollbar-group{
+  width: 95%;
+  margin: 0 auto;
+  padding: 55px 0;
+  border-top: 1px solid #eee;
+}
+
+.masonry-container{
+  margin: 0 auto;
+  width: 95%;
+}
+
+.item {
+  width: 23%;
+  display: inline-block;
+  margin-bottom: 34px;
+  position: relative;
+}
+
+.item_w2 {
+  width: 49%;
+}
+
+@media (max-width: 1330px) {
+  .item{
+    width: 46%;
+
+    img{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .item_w2{
+    width: 100%;
+
+    img{
+      height: auto;
+      width: 100%;
+    }
+  }
+}
